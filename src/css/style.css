@@ -2,28 +2,28 @@ body {
 	background-color: #d8bfd8;
 }
 
-.table-game {
+.table {
 	margin-left: auto;
 	margin-right: auto;
-	width: 500px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
+	text-align: left;
+  border-collapse: separate;
+  border-spacing: 5px;
+  background: #ece9e0;
+  color: #656665;
+  border: 16px solid #ece9e0;
+  border-radius: 20px;
+}
+
+.heading {
+  font-size: 18px;
+  padding: 10px;
 }
 
 .cell {
-	width: 100px;
-  height: 100px;
-  margin-bottom: 20px;
-  margin-right: 10px;
-  background: gray;
-  border-radius: 5%;
+  background: #f5d7bf;
+  padding: 10px;
 }
 
-.active_cell {
-	background-image: url(../img/goblin.png);
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-color: #54106e;
+.image{
+  width: 15px;
 }
